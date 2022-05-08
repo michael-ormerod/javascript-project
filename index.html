@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="style.css">
+<script src="index.js"></script>
+<title>Random Pokemon Generator</title>
+</head>
+
+<body>
+<h1>Pokemon Generator</h1>
+<h3>About</h3>
+<p>Are you about to embark on a Pokemon adventure but you are not sure which Pokemon exist in the game? 
+    This Pokemon Generator was designed for casual Pokemon trainers who are not sure which Pokemon exist in the game. The Pokemon Generator allows
+    you to view which Pokemon are specific to the game you are playing and you can event sort by Pokemon type!</p>
+<h3>Instructions</h3>
+<p>To use this Pokemon Generator, simply select the the "game version" you are playing from the dropdown menu.
+    Next, click the 'Generate Pokemon' button to see the Pokemon! You are even able to click a button to indicate
+    which are your favourite Pokemon!
+</p>
+<form>
+    <fieldset>
+    </select> Pokémon</label>
+    <select name="gameVersion" id="gameVersion" required="">
+    <option value="all">All Game Versions</option>
+    <option value="red" title="red">Pokemon Red</option>
+    <option value="blue" title="blue">Pokemon Blue</option>
+    <option value="yellow" title="yellow">Pokemon Yellow</option>
+    <option value="gold" title="gold">Pokemon Gold</option>
+    <option value="silver" title="silver">Pokemon Silver</option>
+    <option value="crystal" title="crystal">Pokemon Crystal</option>
+    <option value="ruby" title="ruby">Pokemon Ruby</option>
+    <option value="sapphire" title="sapphire">Pokemon Sapphire</option>
+    <option value="emerald" title="emerald">Pokemon Emerald</option>
+    <option value="firered" title="firered">Pokemon Fire Red</option>
+    <option value="leafgreen" title="leafgreen">Pokemon Leaf Green</option>
+    <option value="diamond" title="diamond">Pokemon Diamond</option>
+    <option value="pearl" title="pearl">Pokemon Pearl</option>
+    <option value="platinum" title="platinum">Pokemon Platinum</option>
+    <option value="heartgold" title="heartgold">Pokemon Heart Gold</option>
+    <option value="soulsilver" title="soulsilver">Pokemon Soul Silver</option>
+    <option value="black" title="black">Pokemon Black</option>
+    <option value="white" title="white">Pokemon White</option>
+    <option value="black2" title="black2">Pokemon Black 2</option>
+    <option value="white2" title="white2">Pokemon White 2</option>
+    </select>
+    <select name="type" id="type" required="">
+    <option value="all">All Types</option>
+    <option value="bug">Bug</option>
+    <option value="dark">Dark</option>
+    <option value="dragon">Dragon</option>
+    <option value="electric">Electric</option>
+    <option value="fairy">Fairy</option>
+    <option value="fighting">Fighting</option>
+    <option value="fire">Fire</option>
+    <option value="flying">Flying</option>
+    <option value="ghost">Ghost</option>
+    <option value="grass">Grass</option>
+    <option value="ground">Ground</option>
+    <option value="ice">Ice</option>
+    <option value="normal">Normal</option>
+    <option value="poison">Poison</option>
+    <option value="psychic">Psychic</option>
+    <option value="rock">Rock</option>
+    <option value="steel">Steel</option>
+    <option value="water">Water</option>
+    </select>
+    <button id="generatePokemon">Generate</button>
+    </fieldset>
+
+    </form>
+    <section id="results"></section>
+    <div id="pokemon-results"></div>
+
+</body>
+
+</html>
